@@ -5,13 +5,22 @@ semua sintaksis dasar bahasa pemograman terdiri dari:
 3. perulangan: mengulang langkah yang sama berkali-kali selama/sampai kondisi terpenuhi
 """
 
+#Sekuensial
+print('"Ibu berkata kepada Budi",pergi ke toko!')
+print("Beli 1 botol susu dan 6 butir telur")
 # Percabangan
-jumlah_botol_susu = 0
-if jumlah_botol_susu >0:
-    print("Budi mengecek harganya, dan ternyata uangnya cukup")
-    print("membeli 1 botol 1")
-else:
-    print("tidak jadi beli")
+Jumlah_botol_susu = 165
 
-print("Budi pulang kerumah")
-print("menyampaikan hasilnya kepada Ibu")
+if Jumlah_botol_susu >0:
+    print("Budi membeli susu 1 botol")
+else:
+    print("tidak usah beli susu")
+jumlah_telur = 400
+if jumlah_telur == 0:
+    print("beli telur 6 butir")
+else:
+    print("tidak usah beli telor")
+
+
+
+
