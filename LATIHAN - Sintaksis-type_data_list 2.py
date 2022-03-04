@@ -32,3 +32,22 @@ print("\nClear list")
 daftar_buku.clear()
 for i in range (1,len(daftar_buku)):
     print(daftar_buku[i])
+
+print("\nGanti elemen pertama")
+daftar_buku = ['Seven Habits', 'How To Influence People', 'First Things First']
+daftar_buku[0] = 'Eight Habits'
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print("\nAmbil elemen kedua")
+buku = daftar_buku.pop(1)
+for i in range (0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print("\nTampilkan elemen yang diambil")
+print(buku)
+
+print("\nSisa buku")
+daftar_buku.pop()
+for i in range (0,len(daftar_buku)):
+    print(daftar_buku[i])

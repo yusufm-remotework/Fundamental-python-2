@@ -44,14 +44,7 @@ for i in range(0, len(daftar_buku)):
 print("\nBuku yang diambil tadi")
 print(buku)
 
-print('n\pop')
+print("\nSisa buku")
 daftar_buku.pop()
 for i in range(0, len(daftar_buku)):
     print(daftar_buku )
-
-print('n\pop -1')
-
-daftar_buku = ['Seven habits','How to influence people','First thing first','4dx']
-daftar_buku.pop(-4)
-for i in range(0, len(daftar_buku)):
-    print(daftar_buku[i])
